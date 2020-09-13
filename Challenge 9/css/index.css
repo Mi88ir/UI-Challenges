@@ -1,0 +1,75 @@
+body{
+	background-color: #1565c0;
+}
+
+.box{
+	position: absolute;
+	top: 0;bottom: 0;left: 0;right: 0;
+	margin: auto;
+	background-color: #FF299B;
+	width: 25%;
+	height: 22em;
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+.bottom-bar{
+	width: 100%;
+	height: 4em;
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+
+}
+.box-content{
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 12%;
+	color: white;
+}
+
+.box-content h2,.box-2 h3{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+}
+.box-content h3,.box-4 h3{
+font-family: 'Nunito', sans-serif;
+	font-weight: 300;	
+}
+.container{
+	display: flex;
+
+}
+.container div{
+	/*border: 1px #ccc solid;*/
+}
+.box-1{
+	flex: 1;
+}
+
+.box-2{
+	flex: 3;
+	padding-left: 10px;
+}
+
+.box-3{
+	flex: 1;
+
+}
+
+.box-4{
+	flex: 1;
+}
+.box-1 img{
+	width: 70%;
+	height: 60%;
+	margin-top: 25%;
+	margin-left: 20%;
+}
+
+.box-3 img{
+	width: 50%;
+	height: 40%;
+	margin-top: 30%;
+	margin-left: 20%;
+}

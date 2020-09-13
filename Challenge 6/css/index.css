@@ -1,0 +1,140 @@
+body{
+	background-color: #f57c00;
+}
+
+.parent-box{
+	position: absolute;
+	top: 0;left:0;right: 0;bottom: 0;
+	margin: auto;
+	width: 25em;
+	height: 82%;
+	background-color: white;
+}
+
+.container-1{
+	display: flex;
+	margin: 1em 1em 0 1em;
+
+}
+
+.box-1 img{
+	width: 1.2em;
+}
+.box-1{
+	text-align: left;
+	flex: 1;
+
+}
+
+.box-2{
+	flex: 5;
+}
+.box-2 h4{
+	margin-top: 0em;
+	margin-bottom: 0em;
+	font-family: 'Nunito', sans-serif;
+}
+
+.box-3{
+	flex: 2;
+}
+.image-carousel{
+	text-align: center;
+}
+
+.bg_image{
+	width: 95%;
+}
+.container-2{
+	display: flex;
+	margin: 1em 1em 0 1em;
+
+}
+.container-2 div{
+	/*border: 1px #ccc solid;*/
+}
+.container-2-box{
+	flex: 1;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	color: grey;
+	font-weight: 300;
+}
+
+.container-2-box img{
+	width: 50%;
+	margin-bottom: -20px;
+}
+
+.container-gap {
+	margin: -2em 1em 0 1em;
+}
+
+.container-gap h3{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+}
+
+.recommendation-list-item{
+	display: flex;
+	margin-top: -0.5em;
+	margin-bottom: 0.5em;
+}
+
+.recommendation-list-item div{
+	/*border: 1px #ccc solid;*/
+
+}
+.recommendation-food-image{
+	flex: 1;
+}
+.recommendation-food-image img{
+	width: 100%;
+	height: 90%;
+}
+.recommendation-food-details{
+	flex: 4;
+	padding-left: 10px;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+.food-name{
+	margin-top: 0em;
+	margin-bottom: -1em;
+}
+
+.place-type{
+	color: grey;	
+	margin-bottom: 0.5em;
+
+}
+
+.tags{
+	margin-top: 1em;
+
+}
+
+.span-tags{
+	background-color: grey;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	color: white;
+}
+
+.nav-bar-proto{
+	display: flex;
+	justify-content: center;
+
+}
+
+.nav-item{
+	text-align: center;
+	flex-basis: 18%;
+	padding: 0.5em 0.5em 0em 0.5em;
+
+}
+
+.nav-item:hover{
+	background-color: #d0d0d0;
+	cursor: pointer;
+}

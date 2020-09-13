@@ -1,0 +1,97 @@
+body{
+	background-color: #ec407a;
+}
+
+.box{
+	position: absolute;
+	top: 0;bottom: 0;left: 0;right: 0;
+	margin: auto;
+	background-color: white;
+	width: 25%;
+	height: 35em;
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+img{
+	width: 100%;
+	height: 40%;
+}
+.child-1{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.child-1 h2{
+	margin-bottom: -20px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+}
+
+.child-1 h4{
+		font-family: 'Nunito', sans-serif;
+		font-weight: 400;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.container div{
+	/*border: 1px #ccc solid;*/
+}
+
+.container-1-box,.container-2-box{
+	flex-basis: 45%;
+}
+.container-1-box h5,.container-2-box h5{
+	font-family: 'Nunito', sans-serif;
+	margin-top: 0;
+	font-weight: 600;
+
+}
+.container-1-box h4,.container-2-box h4{
+	margin-top: -1em;
+		font-weight: 700;
+}
+.container-2-box h5{
+	margin-bottom: 2em;
+}
+.container-2-box h4{
+	margin-top: -1.3em;
+}
+.CTA{
+	text-align: center;
+
+}
+
+.CTA button{
+	width: 100%;
+	height: 2.5em;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	color: white;
+	background-color: #ec407a;
+	border-radius: 10px;
+	box-shadow: none;
+	outline: 0;
+	border: 2px solid #ec407a;
+	cursor: pointer;
+}
+
+.CTA button:hover{
+	background-color: #c42258;
+	border: 2px solid #c42258;
+
+}
+
+#rating{
+	position: absolute;
+	background-color: #2fe32f;
+	padding: 0.3em 0.3em 0.3em 0.3em ;
+	margin-top: 0.5em;
+	margin-left: 85%;
+	color: white;	
+	font-family: 'Nunito', sans-serif;
+	border-radius: 5px;
+}

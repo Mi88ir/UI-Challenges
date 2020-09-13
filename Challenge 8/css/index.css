@@ -1,0 +1,49 @@
+body{
+	background-color: #6a1b9a;
+	margin: 0;
+	padding: 0;
+
+}
+
+.box{
+	width: 50%;
+	height: 50%;
+	background-color: white;
+	margin: 10% 10% 10% 10%;
+
+}
+.container-fluid{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.custom-row{
+	margin-top: 10%;
+}
+.custom-col{
+	margin-top: 3%;
+}
+h6{
+	color: grey;
+}
+h4{
+	font-weight: 400;
+}
+span{
+	color: #f06292 ;
+	font-size: 1.2rem!important;
+	margin-left: 10%;
+}
+
+h3{
+	color: #f06292;
+	cursor: pointer;
+	width: 20%;
+	padding: 0.3em 0.3em 0.3em 0.3em ;
+	border-radius: 5px;
+}
+h3:hover{
+	background-color: pink;
+	color:#e91e63 ;
+}

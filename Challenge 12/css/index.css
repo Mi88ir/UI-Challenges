@@ -1,0 +1,31 @@
+.section-1{
+	   position: relative;
+	text-align: center;
+}
+.section-1 img{
+	width: 100%;
+	filter: brightness(40%);
+}
+.section-1 h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    font-family: 'Merienda One', cursive;
+}
+.custom-container-1 h3,.custom-color{
+	color: #00bcd4!important;
+}
+
+.section-2 p{
+font-family: 'Nunito', sans-serif;
+font-size: 1.2em;
+
+}
+
+.section-4 h5:hover{
+	color: #00bcd4!important;
+	cursor: pointer;
+}

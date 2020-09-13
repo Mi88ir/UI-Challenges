@@ -1,0 +1,67 @@
+body{
+	background-color: #1565c0;
+}
+
+.box{
+	position: absolute;
+	top: 0;bottom: 0;left: 0;right: 0;
+	margin: auto;
+	width: 22%;
+	height: 30em;
+	background-color: white;
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.profile-details{
+	text-align: center;
+}
+
+img{
+	width: 50%;
+	margin-top: 10%;
+}
+
+h2{
+	font-family: 'Nunito', sans-serif;
+	margin-top: 2%;
+}
+
+.account-items{
+	text-align: center;
+}
+
+input[type="password"]{
+	width: 60%;
+	height: 2em;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #ccc;
+	margin-bottom: 5%;
+
+}
+label{
+	font-size: 1em;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+
+}
+button{
+	margin-top: 5%;
+	background-color: #0d47a1;
+	width: 80%;
+	height: 3em;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	color: white;
+border:none;
+border-radius: 5px;
+}
+
+h4{
+	font-family: 'Nunito', sans-serif;
+	color: grey;
+	font-weight: 600;
+}
