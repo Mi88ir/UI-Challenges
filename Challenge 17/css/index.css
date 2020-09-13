@@ -1,0 +1,59 @@
+.header-primary{
+  width: 100%;
+  height: 30rem;
+}
+
+.header-primary img{
+  width: 100%;
+  height: 30rem;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  /*filter: grayscale(100%);*/
+}
+
+.custom-navbar{
+  background-color: rgba(0,0,0,0.2);
+}
+.section-1 p{
+  height: 10rem;
+  font-size: 1.3em;
+}
+
+
+#dev-1{
+  color: #2A9DAE;
+}
+
+#dev-2{
+  color: #38D2C5;
+}
+
+#dev-3{
+  color: #6FCBD8;
+}
+
+#dev-4{
+  color: #AA057A;
+}
+.navigator{
+  background-color: grey;
+}
+
+.nunito{
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+}
+
+.michroma{
+font-family: 'Michroma', sans-serif;
+
+}
+
+.pacifico{
+font-family: 'Pacifico', cursive;
+}
+.cambay{
+  font-family: 'Cambay', sans-serif;
+
+}

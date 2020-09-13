@@ -1,0 +1,29 @@
+.cf-1{
+	background-color: #E74C3C;
+	    background-image: linear-gradient(#ff9d2f, #ff6126);
+	    clip-path: polygon( 0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw) );
+	    overflow: hidden;
+}
+
+.cf-1 .container{
+	background-color: white;
+}
+.cf-1 .container h3{
+		background-color: #F44336;
+	    display: inline-block;
+	    color: white;
+}
+
+.navigators{
+	background-color: grey;
+}
+
+.cf-2{
+	background-color: #3498DB;
+    clip-path: polygon( 0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw) );
+
+}
+
+.cf-2 p{
+	font-size: 1.4em;
+}

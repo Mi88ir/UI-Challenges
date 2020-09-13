@@ -1,0 +1,22 @@
+#banner-img{
+	width: 100%;
+}
+.search-box{
+	position: absolute;
+	top: 20%;
+	left:12%;
+	width: 28vw;
+	height: 60vh;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow: auto;
+}
+
+.full-height{
+	height: 100%;
+	background-color:white;
+
+}
+.full-height li{
+	margin-top: 0;
+}

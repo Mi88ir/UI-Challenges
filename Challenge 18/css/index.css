@@ -1,0 +1,54 @@
+.col-7,.col-5{
+	margin:0;
+	padding:0;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+}
+.text-muted{
+	color: #edecec!important;
+}
+.box-1{
+
+	background-color: #e91e63;
+	width: 100%;
+	height: 100vh;
+}
+
+.box-2{
+	background-color: #3949ab;
+	width: 100%;
+	height: 60vh;
+	padding-top: 5%;
+}
+.box-2 h3,.box-2 h5{
+	margin-left: 60%;
+}
+.box-3{
+	background-color: orange;
+	width: 70%;
+	height: 18vh;
+}
+
+.box-4{
+	background-color: green;
+	width: 100%;
+	height: 22vh;
+}
+
+.flex-parent{
+	display: flex;
+}
+
+.flex-1{
+	flex: 1;
+}
+
+.flex-2{
+	flex: 2;
+}
+
+.box-5{
+	background-color: #00b0ff;
+	width: 100%;
+	height: 40vh
+}

@@ -1,0 +1,17 @@
+.jumbotron-1{
+	background-color: #ffd400;
+}
+.test{
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.standard-props{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 1.1em;
+
+}
+
+.custom-box-styling{
+	background-color: #f3f3f3;
+}
